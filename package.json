@@ -1,0 +1,69 @@
+{
+  "_from": "base-web-cli@latest",
+  "_id": "base-web-cli@1.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-eW584t5/TUfe+Mbpd0iNBVDNYzbZcMoiib+eeAzpIfYJy3fjm8vB0BKkblT+HHUtzdN/MWyBM071+7KB03EAOg==",
+  "_location": "/base-web-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "base-web-cli@latest",
+    "name": "base-web-cli",
+    "escapedName": "base-web-cli",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/base-web-cli/-/base-web-cli-1.1.4.tgz",
+  "_shasum": "c16fb208a86cb006ac4707751ef9201d1b4da899",
+  "_spec": "base-web-cli@latest",
+  "_where": "E:\\lxh-code\\webpack\\base-web-cli",
+  "author": {
+    "name": "luoxuehui"
+  },
+  "bin": {
+    "base-web-cli": "bin/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "jquery": "^3.5.1"
+  },
+  "deprecated": false,
+  "description": "A cli based on native Web",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "base-web-cli",
+  "scripts": {
+    "build": "npx webpack --mode=production",
+    "dev": "npx webpack-dev-server --mode=development --progress"
+  },
+  "version": "1.1.4"
+}
