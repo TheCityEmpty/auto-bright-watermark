@@ -34,6 +34,13 @@ npm run dev
 
 从左至右，从上至下 分别为
 
+```html
+<img src="1.jpg" width="400" data-water />
+<img src="1.jpg" width="400" data-water1 />
+<img src="1.jpg" width="400" data-water2 />
+<img src="1.jpg" width="400" data-water3 />
+```
+
 ```js
 // 重复文字 水印
 import AutoWatermark from './auto-bright-watermark.js'
@@ -103,7 +110,7 @@ new AutoWatermark({
 | dataWater      | 给 img 标签添加attr, 如: data-water, 用于识别哪些图片需要加水印      |  String |  water      |
 | contentSize | 水印内容大小， 一次水印所占大小，用于计算一张图片需要重复多少次水印   |   Object |  contentSize = { width: 200,height:100}|
 | repeat | 是否重复水印   |   Boolean |   true    |
-| rotate | 水印旋转角度(支持负值)   |   String  | 无(必填)
+| rotate | 水印旋转角度(支持负值)   |   String  | -10 |
 | color | 水印颜色   |   String |   rgba(255, 255, 255, 0.2)     |
 | bold | 字体是否加粗   |   Boolean |   true     |
 | fontSize | 字体大小   |   String |   20px     |
