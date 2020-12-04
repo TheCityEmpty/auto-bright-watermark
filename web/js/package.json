@@ -1,0 +1,15 @@
+{
+  "name": "auto-bright-watermark",
+  "version": "1.0.0",
+  "description": "auto-bright-watermark",
+  "main": "auto-bright-watermark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files":[
+    "./auto-bright-watermark.js",
+    "./package.json"
+  ],
+  "author": "lxh",
+  "license": "ISC"
+}
